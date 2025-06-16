@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* 
+    Medidas Absolutos
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, %, vw, vh, vmin, vmax
+    obs:
+    1em = 16px (tamanho da fonte padrão do navegador)
+    */
+    font-size: 1em;
+    /* font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline; */
+}
+h1 {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: italic;
+    color: #333; */
+
+    /* shorthand font */
+    font: italic bolder 3em Verdana, Geneva, Tahoma, sans-serif; 
+}
